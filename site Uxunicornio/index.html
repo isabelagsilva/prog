@@ -6,48 +6,52 @@
 	<title>Ux Unicórnio</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/base.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/cabecalho.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
-	<header>
-		<section>
-			<span>UX Unicórnio na estrada 2020</span>
-		
-			 
-	    <nav>
-		    <div class="nav-wrapper">
-		      <a href="#" class="brand-logo">Logo</a>
+	<header id="hero">
+		<section >
+			<nav>
+		    <div class="nav-wrapper container">
+		      <a href="#" class="brand-logo">Ux Unicórnio na estrada 2020</a>
 		      <ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li><a href="sass.html">Sass</a></li>
-		        <li><a href="badges.html">Components</a></li>
-		        <li><a href="collapsible.html">JavaScript</a></li>
+			      <li><a href="#">Cidades e Datas</a></li>
+						<li><a href="#">Conteúdo</a></li>
+						<li><a href="#">Depoimentos</a></li>
+						<li><a href="#">Cases de alunos</a></li>
+						<li><a href="#">Whatsapp</a></li>
 		      </ul>
 		    </div>
 	    </nav>
+		</section>	
 
-		<nav>
-			<ul>
-				<li>Cidades e Datas</li>
-				<li>Conteúdo</li>
-				<li>Depoimentos</li>
-				<li>Cases de alunos</li>
-				<li>Whatsapp</li>
-			</ul>
-		</nav>
-		</section>	
-		<section>
-			<div>Curso Design de Produto focado em UX/UI</div>
-			<div>Destaque-se no mercado com conhecimentos em Experiência do Usuário, Estratégia de Negócios, Metodologias Ágeis, Design de Interfaces Web/App e Softskills.
-			</div>
-			<div>
-				<button>Lista de Espera</button>
-			</div>
-		</section>	
+		<section class="chamada container" >
+			<div class="col s12 m12 l7 xl7">
+				<div class="row">
+					<div class="chamada-titulo"><h1>Curso Design de Produto focado em UX/UI</h1>
+					</div>
+					
+					<div class="chamada-subtitulo">
+						<h5>Destaque-se no mercado com conhecimentos em Experiência do Usuário, Estratégia de Negócios, Metodologias Ágeis, Design de Interfaces Web/App e Softskills.</h5>
+					</div>
+					
+					<div>
+						<a  class="waves-effect waves-light btn-large pulse #eeff41 lime accent-2" href="#">Lista de Espera</a>
+					</div>
+				</div>	
+			</div>	
+		</section>			
 	</header>
-	<section>
-		<div>Veja as datas da sua cidade</div>
+
+	<section class="scroll">
+		<div class="center-align">Veja as datas da sua cidade</div>
+		<div class="center-align"><i class="material-icons">keyboard_arrow_down</i></div>
 	</section>
+
 	<section class="cidades">
 		<div class="row">
 	    	<div class="col s12 m6 xl13">

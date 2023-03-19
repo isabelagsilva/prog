@@ -1,0 +1,27 @@
+header{
+	align-content: center;
+
+}
+header#hero {
+	color: #FFFFFF;
+	background: linear-gradient(120deg,#AC3ECF 0%,#ff00af 90%);
+}
+
+header nav {
+	color: #FFFFFF;
+	background: linear-gradient(120deg,#AC3ECF 0%,#ff00af 90%);
+	-webkit-box-shadow:none;
+	box-shadow: none;
+}
+
+a.brand-logo{
+	font-size: 14px;
+	font-weight: 500;
+}
+.right hide-on-med-and-down {
+	padding: 2px;
+}
+
+.chamada {
+	padding: 0;
+}
